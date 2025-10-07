@@ -1,0 +1,27 @@
+.body{
+    background-color: #f0f8ff;
+}
+
+h1{
+    color: #000080;
+}
+
+p{
+    color: #2f4f4f;
+}
+.kartu-profil{
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 50px ;
+    text-align: center;
+
+}
+
+.kartu-profil img{
+    width: 50%;
+    margin-bottom: 15px;
+}

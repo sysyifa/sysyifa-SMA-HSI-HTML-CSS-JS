@@ -1,0 +1,13 @@
+di sini belajr 
+
+- ul  = buat list tidak teratur
+- ol  = buat list teratur
+- div =  kotak kardus transparan tanpa label.
+Tujuannya adalah untuk mengelompokkan elemen-elemen yang saling berhubungan menjadi satu
+kesatuan. Tag <div> sendiri tidak memiliki arti atau tampilan visual apa pun. Kekuatannya baru akan terlihat
+nanti saat kita belajar CSS. Dengan mengelompokkan elemen, kita bisa memberi gaya (misalnya, memberi
+warna latar belakang) atau mengatur posisi seluruh kelompok tersebut sekaligus.
+
+
+
+

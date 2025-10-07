@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@400;700&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" 
+    href="{{ url_for('static',filename='css/style.css')}}"
+    />
+    
+</head>
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">DevBeats</div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#fitur">Fitur</a></li>
+        <li><a href="/Profil">Kontak</a></li>
+      </ul>
+      <button id="tombol-mode">Light Mode</button>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Headphone DevBeats</h1>
+        <p>Dirancang khusus untuk developer: noise cancellation superior, suara jernih, dan kenyamanan coding maraton.</p>
+        <a href="#" class="cta">Pesan Sekarang</a>
+      </div>
+      <div class="hero-img">
+        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?q=80&w=2070" alt="DevBeats Headphone" />
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="fitur" class="features">
+      <h2>Fitur Unggulan</h2>
+      <div class="feature-grid">
+        <article class="feature-item">
+          <h3>Peredam Bising Aktif</h3>
+          <p>Hilangkan suara bising di sekitarmu dan masuk ke dalam zona fokus dengan teknologi ANC terdepan.</p>
+        </article>
+        <article class="feature-item">
+          <h3>Audio Jernih untuk Lo-Fi</h3>
+          <p>Driver Hi-Fi dioptimalkan untuk musik yang membantu konsentrasi, dari lo-fi beats hingga musik klasik.</p>
+        </article>
+        <article class="feature-item">
+          <h3>Baterai Tahan 40 Jam</h3>
+          <p>Sekali charge cukup untuk menemani coding-mu seminggu penuh tanpa gangguan.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <a href="/Profil">Pergi ke Profil</a>
+  
+
+  <!-- Footer -->
+  <footer id="kontak">
+    <p>&copy; 2025 DevBeats. Semua Hak Dilindungi.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    const tombol = document.querySelector("#tombol-mode");
+    tombol.addEventListener("click", () => {
+      document.body.classList.toggle("dark-mode");
+      tombol.textContent = document.body.classList.contains("dark-mode")
+        ? "Dark Mode"
+        : "Light Mode";
+    });
+  </script>
+    
+ 
+    
+    
+</body>
+</html>

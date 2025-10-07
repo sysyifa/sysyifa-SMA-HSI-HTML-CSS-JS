@@ -1,0 +1,46 @@
+ Pertemuan 4: HTML Semantik
+
+Masalah <div> saja
+Kalau semua elemen pakai <div>, hasilnya berantakan kayak pindahan rumah semua barang dimasukin ke kardus tanpa label → susah cari apa-apa.
+Ini disebut Div Soup.
+
+Solusinya: HTML Semantik
+Gunakan tag yang punya arti sesuai isi kontennya, bukan <div> doang.
+
+Contoh:
+
+<header> → bagian atas halaman (judul/logo/navigasi).
+
+<nav> → navigasi utama.
+
+<main> → isi utama (hanya 1 per halaman).
+
+<section> → bagian tertentu dari isi (misal: Tentang Kami, Layanan).
+
+<article> → konten yang bisa berdiri sendiri (postingan blog, artikel).
+
+<footer> → bagian bawah (copyright, kontak).
+
+Kenapa penting?
+
+SEO (Mesin pencari) → Google lebih mudah ngerti struktur websitemu.
+
+Aksesibilitas → screen reader untuk tunanetra bisa bantu navigasi lebih mudah.
+
+Developer → kodenya lebih rapi, gampang dibaca & dipahami.
+
+Contoh perbedaan:
+
+Sebelum (pakai <div> semua) → susah dibaca, mirip sup.
+
+Sesudah (pakai tag semantik) → lebih jelas, terstruktur, dan mudah dipahami.
+
+Kesimpulan Singkat
+
+HTML Semantik itu memberi label pada struktur web supaya:
+
+Google ngerti,
+
+pengguna lebih nyaman,
+
+developer (termasuk kamu nanti) gampang baca.

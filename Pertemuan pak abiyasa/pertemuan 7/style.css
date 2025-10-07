@@ -1,0 +1,21 @@
+.navbar {
+ display: flex;
+ justify-content: space-between; /* Mendorong brand ke kiri dan navlinks ke kanan */
+ align-items: center; /* Membuat keduanya rata tengah secara vertikal
+*/
+ background-color: #333;
+ padding: 15px 30px; /* Padding atas-bawah 15px, kiri-kanan 30px */
+}
+.nav-links {
+ display: flex;
+ gap: 25px; /* Memberi jarak antar link */
+}
+/* Beri sedikit gaya agar terlihat bagus */
+.navbar a {
+ color: white;
+ text-decoration: none;
+}
+.brand {
+ font-size: 1.5em; /* em adalah satuan ukuran font relatif */
+ font-weight: bold;
+}

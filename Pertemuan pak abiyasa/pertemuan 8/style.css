@@ -1,0 +1,66 @@
+.body{
+    background-color: #f0f8ff;
+}
+
+h1{
+    color: #000080;
+}
+
+p{
+    color: #2f4f4f;
+    font-size: small;
+
+
+}
+
+h2{
+    font-size: small;
+}
+
+.Judul {
+    
+    padding: 30px;
+   
+    text-align: center; 
+    
+
+}
+
+.Project-galery img {
+     width: 50%;
+    margin-bottom: 5px;
+}
+
+.blog {
+   width: 250px;
+ height: 150px;
+ background-color: white;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ padding: 20px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.Project-galery {
+    display: grid;
+    grid-template-columns: 1fr; /* Hanya 1 kolom */
+    gap: 20px;
+
+
+}
+
+@media (min-width: 600px) {
+ .project-gallery {
+ grid-template-columns: repeat(2, 1fr); /* Ubah menjadi 2 kolom */
+ }
+}
+
+@media (min-width: 900px) {
+ .project-gallery {
+ grid-template-columns: repeat(3, 1fr); /* Ubah menjadi 3 kolom */
+ }
+}
+
+
+

@@ -1,0 +1,130 @@
+.navbar {
+ display: flex;
+ flex-direction: column; /* Menumpuk item secara vertikal */
+ align-items: center; /* Memusatkan item */
+ gap: 15px;
+  background-color: #333;
+  padding: 15px 20px;
+}
+
+@media (min-width: 768px) {
+ .navbar {
+ flex-direction: row; /* Kembali ke baris horizontal */
+ justify-content: space-between; /* Mendorong item ke ujung */
+ }
+}
+
+.nav-links {
+ display: flex;
+ gap: 25px; /* Memberi jarak antar link */
+}
+/* Beri sedikit gaya agar terlihat bagus */
+.navbar a {
+ color: white;
+ text-decoration: none;
+}
+.brand {
+ font-size: 1.5em; /* em adalah satuan ukuran font relatif */
+ font-weight: bold;
+}
+
+.body{
+    background-color: #f0f8ff;
+}
+
+h1{
+    color: #000080;
+
+   
+}
+
+p{
+    color: #2f4f4f;
+}
+.kartu-profil{
+    width: 300px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 100px ;
+    text-align: center
+
+}
+
+.kartu-profil img{
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.card {
+ width: 250px;
+ height: 150px;
+ background-color: white;
+ border: 1px solid #ddd;
+ border-radius: 8px;
+ padding: 20px;
+ box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+ gap: 25px;
+ padding: 20px;
+
+}
+
+.body{
+    background-color: #f0f8ff;
+}
+
+
+h2{
+    font-size: small;
+}
+
+.Judul {
+    
+    padding: 30px;
+   
+    text-align: center; 
+    
+
+}
+
+.Project-galery img {
+     width: 50%;
+    margin-bottom: 5px;
+}
+
+
+.Project-galery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 20px;
+
+
+}
+
+#lampu-ajaib {
+ width: 200px;
+ padding: 40px;
+ margin: 20px;
+ text-align: center;
+ font-size: 1.5em;
+ font-weight: bold;
+ border: 2px solid black;
+ border-radius: 10px;
+ /* Gaya awal saat 'mati' */
+ background-color: #444;
+ color: white;
+}
+
+
+
+
+
+
