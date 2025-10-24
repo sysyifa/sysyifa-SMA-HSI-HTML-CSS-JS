@@ -1,0 +1,121 @@
+/* ======== Global Style ======== */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f6f7f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* ======== Judul ======== */
+h1 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 30px;
+}
+
+/* ======== Form Buku Tamu ======== */
+form {
+    background: #fff;
+    max-width: 600px;
+    margin: 0 auto 40px;
+    padding: 35px 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #333;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 12px 14px;
+    margin-bottom: 22px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.3);
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ======== Divider ======== */
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 40px 0;
+}
+
+/* ======== Daftar Pesan ======== */
+h2 {
+    text-align: center;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+.pesan-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.pesan {
+    background: #fff;
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.pesan strong {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #007bff;
+}
+
+.pesan p {
+    margin: 0;
+    font-size: 15px;
+    color: #444;
+    line-height: 1.4;
+}
+
+.pesan-kosong {
+    text-align: center;
+    color: #555;
+    font-style: italic;
+    margin-top: 15px;
+}

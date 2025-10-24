@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu Digital</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/tamu.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Buku Tamu Digital</h1>
+
+        <form method="POST" action="">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama anda" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan anda..." required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+
+        <hr class="divider">
+
+        <h2>Pesan yang Masuk</h2>
+
+        <div class="pesan-container">   
+            {% if semua_pesan %}
+                {% for pesan in semua_pesan|reverse %}
+                    <div class="pesan">
+                        <strong>{{ pesan.nama }}</strong> 
+                        <p>{{ pesan.pesan }}</p>
+                    </div>
+                {% endfor %}
+            {% else %}
+                <p class="pesan-kosong">Belum ada pesan. Jadilah yang pertama!</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
